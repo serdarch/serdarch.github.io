@@ -1,4 +1,8 @@
-# SERNet-Former
+# SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks
+# [CVPR 2024 Workshops] 
+
+# Serdar Erişen
+
 <div align="center">
 
 [![[CVPR 2024 Workshops] YouTube Video](https://img.shields.io/badge/CVPRW'24-YouTube-blue)](https://youtu.be/XXzMkotcdb4?feature=shared) |
@@ -6,7 +10,7 @@
 
 </div>
 
-[CVPR 2024 Workshops] SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks
+
 
 ## News
 - `16 May 2024`   [CVPR 2024 Workshops] The article "SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks" is now accepted to CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice
