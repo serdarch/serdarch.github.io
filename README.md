@@ -1,6 +1,6 @@
 # SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks
 
-# [CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice] 
+### [CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice] 
 
 [CVPR 2024 Workshops YouTube Video](https://youtu.be/XXzMkotcdb4?feature=shared)           [ArXiv paper](https://doi.org/10.48550/arXiv.2401.15741)
 
