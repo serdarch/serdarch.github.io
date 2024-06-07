@@ -32,6 +32,11 @@ Improving the efficiency of state-of-the-art methods in semantic segmentation re
 
 ![Figure1](https://github.com/serdarch/SERNet-Former/assets/61043858/084416d7-f982-4f46-b1bf-871aed81557b)
 
+(a) Attention-boosting Gate (AbG) and Attention-boosting Module (AbM) are fused into the encoder part. 
+
+(b) Attention-fusion Network (AfN), introduced into the decoder
+
+
 ## Experiment Results
 
 ### CamVid Dataset 
