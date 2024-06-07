@@ -1,8 +1,8 @@
-SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks
+# SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks
 
-[CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice] 
+# [CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice] 
 
-Abstract
+# Abstract
 
 Improving the efficiency of state-of-the-art methods in semantic segmentation requires overcoming the increasing computational cost as well as issues such as fusing semantic information from global and local contexts. Based on the recent success and problems that convolutional neural networks (CNNs) encounter in semantic segmentation, this research proposes an encoder-decoder architecture with a unique efficient residual network, Efficient-ResNet. Attention-boosting gates (AbGs) and attention-boosting modules (AbMs) are deployed by aiming to fuse the equivariant and feature-based semantic information with the equivalent sizes of the output of global context of the efficient residual network in the encoder. Respectively, the decoder network is developed with the additional attention-fusion networks (AfNs) inspired by AbM. AfNs are designed to improve the efficiency in the one-to-one conversion of the semantic information by deploying additional convolution layers in the decoder part. Our network is tested on the challenging CamVid and Cityscapes datasets, and the proposed methods reveal significant improvements on the residual networks. To the best of our knowledge, the developed network, SERNet-Former, achieves state-of-the-art results (84.62 % mean IoU) on CamVid dataset and challenging results (87.35 % mean IoU) on Cityscapes validation dataset.
 
