@@ -143,9 +143,3 @@ The experiment outcomes on Cityscapes dataset
 You may would like to try checkpoints of similar architectures
 
 [HR-Net W48 Checkpoint on Cityscapes. 82.27 % mIoU](https://huggingface.co/spaces/serdarerisen/SERNet-Former/blob/main/cityscapes_trainval.pth)
-
-## Installation Support
-
-You can simply download this repository into your environment by running
-```bash
-git clone https://github.com/serdarch/SERNet-Former.git
