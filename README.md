@@ -8,7 +8,6 @@
 
 [GitHub Repository: SerLab](https://github.com/serdarch/SerLab)
 [GitHub Repository: SERNet-Former](https://github.com/serdarch/SERNet-Former)
-[GitHub Repository: Efficient-ResNet](https://github.com/serdarch/Efficient-ResNet)
 
 # Abstract
 
