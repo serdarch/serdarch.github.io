@@ -2,7 +2,7 @@
 
 ### [CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice] 
 
-[![CVPR 2024 Workshops YouTube Video](https://img.shields.io/badge/CVPRW2024-YouTube-red)](https://youtu.be/XXzMkotcdb4?feature=shared)           
+[![CVPR 2024 Workshops YouTube Video](https://img.shields.io/badge/CVPRW2024-YouTube-red)](https://youtu.be/XXzMkotcdb4?feature=shared)
 [![ArXiv paper](https://img.shields.io/badge/CVPRW2024-arXiv-red)](https://doi.org/10.48550/arXiv.2401.15741)
 [![ArXiv HTML (Experimental)](https://img.shields.io/badge/arXiv-Experimental-red)](https://arxiv.org/html/2401.15741v6)
 
