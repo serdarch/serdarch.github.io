@@ -6,9 +6,9 @@
 [![ArXiv paper](https://img.shields.io/badge/CVPRW2024-arXiv-red)](https://doi.org/10.48550/arXiv.2401.15741)
 [![ArXiv HTML (Experimental)](https://img.shields.io/badge/arXiv-Experimental-red)](https://arxiv.org/html/2401.15741v6)
 
-[GitHub Repository: SerLab](https://github.com/serdarch/SerLab)
-[GitHub Repository: SERNet-Former](https://github.com/serdarch/SERNet-Former)
-[GitHub Repository: Efficient-ResNet](https://github.com/serdarch/Efficient-ResNet)
+[![GitHub Repository: SerLab](https://img.shields.io/badge/GitHub-SerLab-yellow)](https://github.com/serdarch/SerLab)
+[![GitHub Repository: SERNet-Former](https://img.shields.io/badge/GitHub-SERNetFormer-yellow)](https://github.com/serdarch/SERNet-Former)
+[![GitHub Repository: Efficient-ResNet](https://img.shields.io/badge/GitHub-EfficientResNet-yellow)](https://github.com/serdarch/Efficient-ResNet)
 
 # Abstract
 
