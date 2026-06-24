@@ -1,1 +1,234 @@
-<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=../Sernet_former/"></head><body><a href="../Sernet_former/">SERNet-Former</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SERNet-Former | Serdar Erişen</title>
+  <meta name="description" content="SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f8fb;
+      color: #172033;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a, #334155);
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      letter-spacing: -0.03em;
+    }
+    header p {
+      max-width: 850px;
+      margin: 16px auto 0;
+      color: #e5ecff;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 34px 22px 70px;
+      background: white;
+    }
+    a {
+      color: #1d4ed8;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #d9e2f2;
+      padding: 8px 10px;
+      text-align: center;
+    }
+    th {
+      background: #eef4ff;
+    }
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 16px;
+      border-radius: 10px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: Consolas, Monaco, monospace;
+    }
+    .nav {
+      margin-bottom: 22px;
+      padding: 14px 16px;
+      background: #eef4ff;
+      border-radius: 12px;
+      border: 1px solid #c7d8ff;
+    }
+    .nav a {
+      margin-right: 14px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      color: #64748b;
+      padding: 30px;
+      font-size: 0.94rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SERNet-Former</h1>
+    <p>Semantic segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks.</p>
+  </header>
+
+  <main>
+    <div class="nav">
+      <a href="../">Project Home</a>
+      <a href="../neurofuser/">NeuroFuser</a>
+      <a href="../neurofixer/">NeuroFixer</a>
+    </div>
+
+    <h1 id="sernet-former-semantic-segmentation-by-efficient-residual-network-with-attention-boosting-gates-and-attention-fusion-networks">SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks</h1>
+<h3 id="cvpr-2024-workshops-equivariant-vision-from-theory-to-practice">[CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice]</h3>
+<p><a href="https://youtu.be/XXzMkotcdb4?feature=shared"><img alt="CVPR 2024 Workshops YouTube Video" src="https://img.shields.io/badge/CVPRW2024-YouTube-red" /></a>
+<a href="https://doi.org/10.48550/arXiv.2401.15741"><img alt="ArXiv paper" src="https://img.shields.io/badge/CVPRW2024-arXiv-red" /></a>
+<a href="https://arxiv.org/html/2401.15741v6"><img alt="ArXiv HTML (Experimental)" src="https://img.shields.io/badge/arXiv-Experimental-red" /></a></p>
+<p><a href="https://github.com/serdarch/SerLab"><img alt="GitHub Repository: SerLab" src="https://img.shields.io/badge/GitHub-SerLab-yellow" /></a>
+<a href="https://github.com/serdarch/SERNet-Former"><img alt="GitHub Repository: SERNet-Former" src="https://img.shields.io/badge/GitHub-SERNetFormer-yellow" /></a>
+<a href="https://github.com/serdarch/Efficient-ResNet"><img alt="GitHub Repository: Efficient-ResNet" src="https://img.shields.io/badge/GitHub-EfficientResNet-yellow" /></a></p>
+<h1 id="abstract">Abstract</h1>
+<p>Improving the efficiency of state-of-the-art methods in semantic segmentation requires overcoming the increasing computational cost as well as issues such as fusing semantic information from global and local contexts. Based on the recent success and problems that convolutional neural networks (CNNs) encounter in semantic segmentation, this research proposes an encoder-decoder architecture with a unique efficient residual network, Efficient-ResNet. Attention-boosting gates (AbGs) and attention-boosting modules (AbMs) are deployed by aiming to fuse the equivariant and feature-based semantic information with the equivalent sizes of the output of global context of the efficient residual network in the encoder. Respectively, the decoder network is developed with the additional attention-fusion networks (AfNs) inspired by AbM. AfNs are designed to improve the efficiency in the one-to-one conversion of the semantic information by deploying additional convolution layers in the decoder part. Our network is tested on the challenging CamVid and Cityscapes datasets, and the proposed methods reveal significant improvements on the residual networks. To the best of our knowledge, the developed network, SERNet-Former, achieves state-of-the-art results (84.62 % mean IoU) on CamVid dataset and challenging results (87.35 % mean IoU) on Cityscapes validation dataset.</p>
+<h2 id="news">News</h2>
+<ul>
+<li><code>16 May 2024</code>   [CVPR 2024 Workshops] The article "SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks" is now accepted to CVPR 2024 Workshops. Equivariant Vision: From Theory to Practice</li>
+<li><code>January 2024</code>   SERNet-Former set state-of-the-art result on Cityscapes validation dataset for pixel-level segmentation: 87.35 % mIoU</li>
+<li><code>January 2024</code>   SERNet-Former set state-of-the-art result on CamVid dataset: 84.62 % mIoU</li>
+<li><code>January 2024</code>   SERNet-Former ranked as the seventh on Cityscapes test dataset for pixel-level segmentation according to PapersWithCode.com: 84.83 % mIoU</li>
+</ul>
+<h2 id="hall-of-fame">Hall of Fame</h2>
+<p><a href="https://paperswithcode.com/sota/semantic-segmentation-on-camvid?p=sernet-former-semantic-segmentation-by"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sernet-former-semantic-segmentation-by/semantic-segmentation-on-camvid" /></a></p>
+<p><a href="https://paperswithcode.com/sota/2d-semantic-segmentation-on-camvid?p=sernet-former-semantic-segmentation-by"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sernet-former-semantic-segmentation-by/2d-semantic-segmentation-on-camvid" /></a></p>
+<p><a href="https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val?p=sernet-former-semantic-segmentation-by"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sernet-former-semantic-segmentation-by/semantic-segmentation-on-cityscapes-val" /></a></p>
+<p><a href="https://paperswithcode.com/sota/2d-semantic-segmentation-on-cityscapes-val?p=sernet-former-semantic-segmentation-by"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sernet-former-semantic-segmentation-by/2d-semantic-segmentation-on-cityscapes-val" /></a></p>
+<p><a href="https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes?p=sernet-former-semantic-segmentation-by"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sernet-former-semantic-segmentation-by/semantic-segmentation-on-cityscapes" /></a></p>
+<h2 id="sernet-former-conceptual">SERNet-Former Conceptual</h2>
+<p><img alt="Figure1" src="https://github.com/serdarch/SERNet-Former/assets/61043858/084416d7-f982-4f46-b1bf-871aed81557b" /></p>
+<p>(a) Attention-boosting Gate (AbG) and Attention-boosting Module (AbM) are fused into the encoder part. </p>
+<p>(b) Attention-fusion Network (AfN), introduced into the decoder</p>
+<h2 id="experiment-results">Experiment Results</h2>
+<h3 id="camvid-dataset">CamVid Dataset</h3>
+<p>The breakdown of class accuracies on CamVid dataset</p>
+<table><tbody>
+<!-- TABLE HEADER -->
+<th valign="bottom">Model</th>
+<th valign="bottom">Baseline Architecture</th>  
+<th valign="bottom">Building</th>
+<th valign="bottom">Tree</th>
+<th valign="bottom">Sky</th>
+<th valign="bottom">Car</th>
+<th valign="bottom">Sign</th>
+<th valign="bottom">Road</th>
+<th valign="bottom">Pedestrian</th>
+<th valign="bottom">Fence</th>
+<th valign="bottom">Pole</th>
+<th valign="bottom">Sidewalk</th>
+<th valign="bottom">Bicycle</th>
+<th valign="bottom">mIoU</th>
+<!-- TABLE BODY -->
+<!-- ROW: 1 -->
+<tr>
+<td align="center">SERNet-Former</td>
+<td align="center">Efficient-ResNet</td>
+<td align="center">93.0</td>
+<td align="center">88.8</td>
+<td align="center">95.1</td>
+<td align="center">91.9</td>
+<td align="center">73.9</td>
+<td align="center">97.7</td>
+<td align="center">76.4</td>
+<td align="center">83.4</td>
+<td align="center">57.3</td>
+<td align="center">90.3</td>
+<td align="center">83.1</td>
+<td align="center">84.62</td>
+</tr>
+</tbody></table>
+
+<p>The experiment outcomes on CamVid dataset</p>
+<p><img alt="camvid_output" src="https://github.com/serdarch/SERNet-Former/assets/61043858/f11f44a6-b245-43f1-b323-2f107f0b330e" /></p>
+<h3 id="cityscapes">Cityscapes</h3>
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom">Model</th>
+<th valign="bottom">Baseline Architecture</th>
+<th valign="bottom">road</th>
+<th valign="bottom">sidewalk</th>
+<th valign="bottom">building</th>
+<th valign="bottom">wall</th>
+<th valign="bottom">fence</th>
+<th valign="bottom">pole</th>
+<th valign="bottom">traffic light</th>
+<th valign="bottom">traffic sign</th>
+<th valign="bottom">vegetation</th>
+<th valign="bottom">terrain</th>
+<th valign="bottom">sky</th>
+<th valign="bottom">person</th>
+<th valign="bottom">rider</th>
+<th valign="bottom">car</th>
+<th valign="bottom">truck</th>
+<th valign="bottom">bus</th>
+<th valign="bottom">train</th>
+<th valign="bottom">motorcycle</th>
+<th valign="bottom">bicycle</th>
+<th valign="bottom">mIoU</th>
+<!-- TABLE BODY -->
+<!-- ROW: 1 -->
+<tr>
+<td align="center">SERNet-Former</td>
+<td align="center">Efficient-ResNet</td>
+<td align="center">98.2</td>
+<td align="center">90.2</td>
+<td align="center">94.0</td>
+<td align="center">67.6</td>
+<td align="center">68.2</td>
+<td align="center">73.6</td>
+<td align="center">78.2</td>
+<td align="center">82.1</td>
+<td align="center">94.6</td>
+<td align="center">75.9</td>
+<td align="center">96.9</td>
+<td align="center">90.0</td>
+<td align="center">77.7</td>
+<td align="center">96.9</td>
+<td align="center">86.1</td>
+<td align="center">93.9</td>
+<td align="center">91.7</td>
+<td align="center">70.0</td>
+<td align="center">82.9</td>
+<td align="center">84.83</td>
+</tr>
+</tbody></table>
+
+<p>The experiment outcomes on Cityscapes dataset</p>
+<p><img alt="cityscapes_output" src="https://github.com/serdarch/SERNet-Former/assets/61043858/9a613193-6761-422c-bb7c-d2a3499548c5" /></p>
+  </main>
+
+  <footer>
+    SERNet-Former · Serdar Erişen
+  </footer>
+</body>
+</html>
